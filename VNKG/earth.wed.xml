@@ -47,6 +47,12 @@
       </children>
       <hierarchy name="root"/>
     </object>
+    <object class="WED_ObjPlacement" id="457" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181728329" longitude="86.773764445" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
+    </object>
     <object class="WED_Taxiway" id="66" parent_id="96">
       <children>
         <child id="65"/>
@@ -86,6 +92,12 @@
       </children>
       <hierarchy name="Runways" locked="0" hidden="0"/>
     </object>
+    <object class="WED_AirportNode" id="451" parent_id="440">
+      <children/>
+      <hierarchy name="Node 2" locked="0" hidden="0"/>
+      <point latitude="27.181633483" longitude="86.773993513" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
     <object class="WED_AirportNode" id="68" parent_id="65">
       <children/>
       <hierarchy name="Node 2" locked="0" hidden="0"/>
@@ -123,7 +135,7 @@
         <child id="17"/>
       </children>
       <hierarchy name="Manamaya Rai Khanidanda" locked="0" hidden="0"/>
-      <airport kind="Airport" elevation="1350.9" has_atc="1" icao="VNKG" always_flatten="0" drive_on_left="1" scenery_id="79438"/>
+      <airport kind="Airport" elevation="1350.9" has_atc="1" icao="VNKG" always_flatten="0" drive_on_left="1" scenery_id="79455"/>
       <meta_data>
         <meta_data_entry pair="city,Diktel"/>
         <meta_data_entry pair="country,Nepal"/>
@@ -288,7 +300,7 @@
     <object class="WED_AirportNode" id="40" parent_id="35">
       <children/>
       <hierarchy name="Node 4" locked="0" hidden="0"/>
-      <point latitude="27.181623279" longitude="86.773255744" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <point latitude="27.181656582" longitude="86.773244658" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
     <object class="WED_AirportNode" id="41" parent_id="35">
@@ -365,6 +377,12 @@
       <hierarchy name="Taxiway 2 Outer Ring" locked="0" hidden="0"/>
       <airport_chain closed="1"/>
     </object>
+    <object class="WED_RampPosition" id="447" parent_id="317">
+      <children/>
+      <hierarchy name="GA1" locked="0" hidden="0"/>
+      <point latitude="27.181653685" longitude="86.773659289" heading="-189.72"/>
+      <ramp_start type="Tie-Down" traffic="12" width="A" ramp_op_type="General Aviation" airlines=""/>
+    </object>
     <object class="WED_Taxiway" id="48" parent_id="96">
       <children>
         <child id="47"/>
@@ -379,6 +397,13 @@
       <markings>
         <marking value="Double Solid Yellow"/>
       </markings>
+    </object>
+    <object class="WED_Taxiway" id="441" parent_id="96">
+      <children>
+        <child id="440"/>
+      </children>
+      <hierarchy name="New Taxiway 1" locked="0" hidden="0"/>
+      <taxiway surface="Dirt" roughness="0.0" heading="5.00"/>
     </object>
     <object class="WED_AirportNode" id="50" parent_id="47">
       <children/>
@@ -412,6 +437,12 @@
       <children/>
       <hierarchy name="Node 5" locked="0" hidden="0"/>
       <point latitude="27.181424023" longitude="86.773027728" split="1" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_AirportNode" id="445" parent_id="440">
+      <children/>
+      <hierarchy name="Node 4" locked="0" hidden="0"/>
+      <point latitude="27.181546332" longitude="86.772437958" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
     <object class="WED_AirportNode" id="54" parent_id="47">
@@ -489,6 +520,12 @@
       <hierarchy name="New Taxiway 3" locked="0" hidden="0"/>
       <taxiway surface="Asphalt" roughness="0.0" heading="5.00"/>
     </object>
+    <object class="WED_AirportNode" id="443" parent_id="440">
+      <children/>
+      <hierarchy name="Node 2" locked="0" hidden="0"/>
+      <point latitude="27.181516624" longitude="86.773263945" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
     <object class="WED_AirportNode" id="61" parent_id="59">
       <children/>
       <hierarchy name="Node 1" locked="0" hidden="0"/>
@@ -519,6 +556,12 @@
       <point latitude="27.180781138" longitude="86.769506637" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
+    <object class="WED_ObjPlacement" id="461" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181573310" longitude="86.773266672" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
+    </object>
     <object class="WED_AirportNode" id="70" parent_id="65">
       <children/>
       <hierarchy name="Node 4" locked="0" hidden="0"/>
@@ -548,6 +591,12 @@
       <markings>
         <marking value="Solid Yellow"/>
       </markings>
+    </object>
+    <object class="WED_ObjPlacement" id="459" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181619630" longitude="86.773541682" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
     </object>
     <object class="WED_AirportNode" id="76" parent_id="71">
       <children/>
@@ -666,6 +715,7 @@
         <child id="60"/>
         <child id="102"/>
         <child id="48"/>
+        <child id="441"/>
       </children>
       <hierarchy name="Apron" locked="0" hidden="0"/>
     </object>
@@ -809,6 +859,12 @@
       <hierarchy name="End" locked="0" hidden="0"/>
       <point latitude="27.181270018" longitude="86.773084936"/>
     </object>
+    <object class="WED_ObjPlacement" id="455" parent_id="317">
+      <children/>
+      <hierarchy name="Thin_Red_White.obj" locked="0" hidden="0"/>
+      <point latitude="27.181715972" longitude="86.774025360" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="3 Tons"/>
+    </object>
     <object class="WED_ExclusionZone" id="120" parent_id="113">
       <children>
         <child id="121"/>
@@ -850,6 +906,12 @@
       <children/>
       <hierarchy name="End" locked="0" hidden="0"/>
       <point latitude="27.181072573" longitude="86.774451047"/>
+    </object>
+    <object class="WED_ObjPlacement" id="453" parent_id="317">
+      <children/>
+      <hierarchy name="Thin_Red_White.obj" locked="0" hidden="0"/>
+      <point latitude="27.181680216" longitude="86.774031998" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="3 Tons"/>
     </object>
     <object class="WED_ExclusionZone" id="126" parent_id="113">
       <children>
@@ -1088,7 +1150,7 @@
     <object class="WED_RampPosition" id="320" parent_id="317">
       <children/>
       <hierarchy name="Stand1" locked="0" hidden="0"/>
-      <point latitude="27.181583873" longitude="86.772469598" heading="-99.85"/>
+      <point latitude="27.181493275" longitude="86.772538404" heading="-190.41"/>
       <ramp_start type="Gate" traffic="28" width="B" ramp_op_type="General Aviation" airlines=""/>
     </object>
     <object class="WED_TaxiRoute" id="330" parent_id="317">
@@ -1283,7 +1345,7 @@
     <object class="WED_ObjPlacement" id="293" parent_id="317">
       <children/>
       <hierarchy name="no_light_3m.obj" locked="0" hidden="0"/>
-      <point latitude="27.181646475" longitude="86.773199692" heading="-10.01"/>
+      <point latitude="27.181921006" longitude="86.773141494" heading="-10.01"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Barriers/movable_plastic/no_light_3m.obj" show_level="1 Default"/>
     </object>
     <object class="WED_AirportChain" id="295" parent_id="296">
@@ -1370,6 +1432,10 @@
         <child id="408"/>
         <child id="407"/>
         <child id="406"/>
+        <child id="456"/>
+        <child id="455"/>
+        <child id="454"/>
+        <child id="453"/>
         <child id="417"/>
         <child id="416"/>
         <child id="415"/>
@@ -1399,6 +1465,9 @@
         <child id="334"/>
         <child id="328"/>
         <child id="341"/>
+        <child id="448"/>
+        <child id="447"/>
+        <child id="446"/>
         <child id="321"/>
         <child id="320"/>
         <child id="285"/>
@@ -1445,13 +1514,19 @@
         <child id="287"/>
         <child id="286"/>
         <child id="423"/>
+        <child id="462"/>
+        <child id="461"/>
+        <child id="460"/>
+        <child id="459"/>
+        <child id="458"/>
+        <child id="457"/>
       </children>
       <hierarchy name="external decor" locked="0" hidden="0"/>
     </object>
     <object class="WED_RampPosition" id="321" parent_id="317">
       <children/>
       <hierarchy name="Stand2" locked="0" hidden="0"/>
-      <point latitude="27.181703055" longitude="86.773180416" heading="79.16"/>
+      <point latitude="27.181584492" longitude="86.773138304" heading="167.93"/>
       <ramp_start type="Gate" traffic="28" width="B" ramp_op_type="Airline" airlines=""/>
     </object>
     <object class="WED_TaxiRoute" id="323" parent_id="317">
@@ -2006,7 +2081,7 @@
       <children/>
       <hierarchy name="Thin_Red_White.obj" locked="0" hidden="0"/>
       <point latitude="27.181853877" longitude="86.772793080" heading="0.0"/>
-      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="1 Default"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="3 Tons"/>
     </object>
     <object class="WED_FacadeRing" id="418" parent_id="419">
       <children>
@@ -2085,6 +2160,78 @@
       <point latitude="27.181964865" longitude="86.775397574" split="0" ctrl_latitude_lo="0.000028496" ctrl_longitude_lo="0.000022714" ctrl_latitude_hi="-0.000028496" ctrl_longitude_hi="-0.000022714"/>
       <markings/>
     </object>
+    <object class="WED_AirportChain" id="440" parent_id="441">
+      <children>
+        <child id="442"/>
+        <child id="443"/>
+        <child id="451"/>
+        <child id="450"/>
+        <child id="444"/>
+        <child id="445"/>
+      </children>
+      <hierarchy name="Taxiway 1 Outer Ring" locked="0" hidden="0"/>
+      <airport_chain closed="1"/>
+    </object>
+    <object class="WED_AirportNode" id="442" parent_id="440">
+      <children/>
+      <hierarchy name="Node 1" locked="0" hidden="0"/>
+      <point latitude="27.181391663" longitude="86.772469758" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_AirportNode" id="444" parent_id="440">
+      <children/>
+      <hierarchy name="Node 3" locked="0" hidden="0"/>
+      <point latitude="27.181654694" longitude="86.773241003" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_RampPosition" id="446" parent_id="317">
+      <children/>
+      <hierarchy name="GA1" locked="0" hidden="0"/>
+      <point latitude="27.181700913" longitude="86.773901277" heading="-191.61"/>
+      <ramp_start type="Tie-Down" traffic="12" width="A" ramp_op_type="General Aviation" airlines=""/>
+    </object>
+    <object class="WED_RampPosition" id="448" parent_id="317">
+      <children/>
+      <hierarchy name="GA1" locked="0" hidden="0"/>
+      <point latitude="27.181613145" longitude="86.773413034" heading="-189.56"/>
+      <ramp_start type="Tie-Down" traffic="12" width="A" ramp_op_type="General Aviation" airlines=""/>
+    </object>
+    <object class="WED_AirportNode" id="450" parent_id="440">
+      <children/>
+      <hierarchy name="Node 2" locked="0" hidden="0"/>
+      <point latitude="27.181779966" longitude="86.773962090" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_ObjPlacement" id="454" parent_id="317">
+      <children/>
+      <hierarchy name="Thin_Red_White.obj" locked="0" hidden="0"/>
+      <point latitude="27.181715972" longitude="86.774025360" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="3 Tons"/>
+    </object>
+    <object class="WED_ObjPlacement" id="456" parent_id="317">
+      <children/>
+      <hierarchy name="Thin_Red_White.obj" locked="0" hidden="0"/>
+      <point latitude="27.181752713" longitude="86.774016879" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Poles/Thin_Red_White.obj" show_level="3 Tons"/>
+    </object>
+    <object class="WED_ObjPlacement" id="458" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181661080" longitude="86.773781347" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
+    </object>
+    <object class="WED_ObjPlacement" id="460" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181689795" longitude="86.773522988" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
+    </object>
+    <object class="WED_ObjPlacement" id="462" parent_id="319">
+      <children/>
+      <hierarchy name="Red_White_Closed_2.obj" locked="0" hidden="0"/>
+      <point latitude="27.181644167" longitude="86.773252069" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj" show_level="3 Tons"/>
+    </object>
   </objects>
   <prefs>
     <pref name="PropertyPane0/Closed">
@@ -2099,17 +2246,17 @@
     </pref>
     <pref name="doc/export_target" value="99"/>
     <pref name="doc/xml_compatibility" value="107"/>
-    <pref name="map/east" value="86.773483"/>
+    <pref name="map/east" value="86.773569"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="27.182121"/>
+    <pref name="map/north" value="27.182082"/>
     <pref name="map/obj_density" value="3"/>
     <pref name="map/pavement_alpha" value="1"/>
     <pref name="map/preview_vis" value="1"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="2"/>
-    <pref name="map/south" value="27.181220"/>
+    <pref name="map/south" value="27.181159"/>
     <pref name="map/vertices_vis" value="1"/>
-    <pref name="map/west" value="86.772090"/>
+    <pref name="map/west" value="86.772142"/>
     <pref name="map/world_map_vis" value="0"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Boundary_.Markings" value=""/>
@@ -2132,7 +2279,7 @@
     <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
     <pref name="map_Light Fixture_Fixture Type" value="35"/>
     <pref name="map_Lines_Resource" value="lib/airport/lines/20_road_edge.lin"/>
-    <pref name="map_Objects_Object" value="lib/g10/US/commercial/store_76.obj"/>
+    <pref name="map_Objects_Object" value="lib/airport/Common_Elements/Markers/Cones/Red_White_Closed_2.obj"/>
     <pref name="map_Objects_Show with" value="750"/>
     <pref name="map_Polygons_Heading" value="0.000000"/>
     <pref name="map_Polygons_Resource" value="lib/airport/pavement/concrete_1D.pol"/>
@@ -2185,8 +2332,8 @@
     <pref name="window/height" value="1120"/>
     <pref name="window/main_split" value="681"/>
     <pref name="window/main_split2" value="2247"/>
-    <pref name="window/prev_split" value="719"/>
-    <pref name="window/prop_split" value="534"/>
+    <pref name="window/prev_split" value="799"/>
+    <pref name="window/prop_split" value="614"/>
     <pref name="window/width" value="2731"/>
     <pref name="window/x_loc" value="705"/>
     <pref name="window/y_loc" value="53"/>
