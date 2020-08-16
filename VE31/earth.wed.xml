@@ -56,6 +56,20 @@
     </object>
     <object class="WED_Group" id="11" parent_id="5">
       <children>
+        <child id="1632"/>
+        <child id="1633"/>
+        <child id="1630"/>
+        <child id="1640"/>
+        <child id="1635"/>
+        <child id="1631"/>
+        <child id="1621"/>
+        <child id="1619"/>
+        <child id="1620"/>
+        <child id="1617"/>
+        <child id="1618"/>
+        <child id="1615"/>
+        <child id="1624"/>
+        <child id="1616"/>
         <child id="52"/>
         <child id="18"/>
         <child id="42"/>
@@ -112,6 +126,8 @@
     </object>
     <object class="WED_Airport" id="5" parent_id="4">
       <children>
+        <child id="1637"/>
+        <child id="1636"/>
         <child id="1565"/>
         <child id="1564"/>
         <child id="1566"/>
@@ -136,6 +152,7 @@
         <meta_data_entry pair="datum_lat,22.780833333"/>
         <meta_data_entry pair="datum_lon,88.359166667"/>
         <meta_data_entry pair="faa_code,"/>
+        <meta_data_entry pair="gui_label,3D"/>
         <meta_data_entry pair="iata_code,"/>
         <meta_data_entry pair="icao_code,VE31"/>
         <meta_data_entry pair="region_code,VE"/>
@@ -169,7 +186,42 @@
     </object>
     <object class="WED_Group" id="16" parent_id="5">
       <children>
+        <child id="1609"/>
+        <child id="1607"/>
+        <child id="1605"/>
+        <child id="1606"/>
+        <child id="1603"/>
+        <child id="1604"/>
+        <child id="1594"/>
+        <child id="1602"/>
+        <child id="1600"/>
+        <child id="1592"/>
+        <child id="1593"/>
+        <child id="1601"/>
+        <child id="1599"/>
+        <child id="1590"/>
+        <child id="1591"/>
+        <child id="1588"/>
+        <child id="1598"/>
+        <child id="1589"/>
+        <child id="1586"/>
+        <child id="1596"/>
+        <child id="1587"/>
+        <child id="1597"/>
+        <child id="1584"/>
+        <child id="1585"/>
+        <child id="1595"/>
+        <child id="1583"/>
+        <child id="1581"/>
+        <child id="1629"/>
+        <child id="1582"/>
+        <child id="1623"/>
+        <child id="1580"/>
+        <child id="1628"/>
+        <child id="1639"/>
+        <child id="1634"/>
         <child id="48"/>
+        <child id="1579"/>
       </children>
       <hierarchy name="Tower, Beacon and Boundaries" locked="0" hidden="0"/>
     </object>
@@ -950,7 +1002,7 @@
     <object class="WED_SimpleBoundaryNode" id="108" parent_id="106">
       <children/>
       <hierarchy name="End" locked="0" hidden="0"/>
-      <point latitude="22.786053510" longitude="88.363462829"/>
+      <point latitude="22.786053510" longitude="88.362844941"/>
     </object>
     <object class="WED_FacadeNode" id="491" parent_id="488">
       <children/>
@@ -1952,8 +2004,14 @@
     <object class="WED_AirportNode" id="1257" parent_id="1231">
       <children/>
       <hierarchy name="Node 25" locked="0" hidden="0"/>
-      <point latitude="22.789102281" longitude="88.361893311" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <point latitude="22.789072023" longitude="88.361886278" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
+    </object>
+    <object class="WED_ObjPlacement" id="1573" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_30Y_empty.obj" locked="0" hidden="0"/>
+      <point latitude="22.790665672" longitude="88.358077573" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_30Y_empty.obj" show_level="4 Mega tons"/>
     </object>
     <object class="WED_SimpleBoundaryNode" id="1364" parent_id="1351">
       <children/>
@@ -1996,6 +2054,19 @@
       <hierarchy name="entrance_2_8m.obj" locked="0" hidden="0"/>
       <point latitude="22.782124623" longitude="88.360449836" heading="286.91"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Modern_Airports/Terminal_kit/entrances/entrance_2_8m.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1581" parent_id="16">
+      <sources>
+        <source id="1580"/>
+        <source id="1628"/>
+      </sources>
+      <children/>
+      <hierarchy name="02/20" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="02/20" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
     </object>
     <object class="WED_SimpleBoundaryNode" id="1372" parent_id="1370">
       <children/>
@@ -2048,6 +2119,15 @@
       <point latitude="22.782060609" longitude="88.360541804" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 2"/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1589" parent_id="16">
+      <viewers>
+        <viewer id="1590"/>
+        <viewer id="1598"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.790183627" longitude="88.361424098"/>
+    </object>
     <object class="WED_ForestRing" id="1444" parent_id="1445">
       <children>
         <child id="1446"/>
@@ -2084,6 +2164,12 @@
       <children/>
       <hierarchy name="Node 9" locked="0" hidden="0"/>
       <point latitude="22.791022513" longitude="88.364860009"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1571" parent_id="1565">
+      <children/>
+      <hierarchy name="Container_1100L_2.obj" locked="0" hidden="0"/>
+      <point latitude="22.790628727" longitude="88.358340735" heading="36.87"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Container_1100L_2.obj" show_level="1 Default"/>
     </object>
     <object class="WED_FacadeNode" id="338" parent_id="330">
       <children/>
@@ -2156,6 +2242,15 @@
       <hierarchy name="Point" locked="0" hidden="0"/>
       <point latitude="22.782089977" longitude="88.360435694" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 2"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1597" parent_id="16">
+      <viewers>
+        <viewer id="1588"/>
+        <viewer id="1598"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789972686" longitude="88.361049718"/>
     </object>
     <object class="WED_SimpleBoundaryNode" id="1452" parent_id="1444">
       <children/>
@@ -2414,6 +2509,12 @@
       <point latitude="22.781980596" longitude="88.360472491" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 3"/>
     </object>
+    <object class="WED_TowerViewpoint" id="1579" parent_id="16">
+      <children/>
+      <hierarchy name="New Tower Viewpoint 33" locked="0" hidden="0"/>
+      <point latitude="22.782392388" longitude="88.360574719"/>
+      <tower_viewpoint height="25"/>
+    </object>
     <object class="WED_FacadeNode" id="346" parent_id="344">
       <children/>
       <hierarchy name="Point" locked="0" hidden="0"/>
@@ -2619,6 +2720,25 @@
       </children>
       <hierarchy name="Objects" locked="0" hidden="0"/>
     </object>
+    <object class="WED_TaxiRoute" id="1619" parent_id="11">
+      <sources>
+        <source id="1618"/>
+        <source id="1620"/>
+      </sources>
+      <children/>
+      <hierarchy name="T2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="E"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
     <object class="WED_Group" id="450" parent_id="447">
       <children>
         <child id="451"/>
@@ -2710,8 +2830,8 @@
     <object class="WED_FacadeNode" id="1522" parent_id="1514">
       <children/>
       <hierarchy name="Node 6" locked="0" hidden="0"/>
-      <point latitude="22.790281247" longitude="88.358912181" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
-      <facade_node wall_type="Wall 1"/>
+      <point latitude="22.790290784" longitude="88.358903635" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <facade_node wall_type="Wall 5"/>
     </object>
     <object class="WED_FacadeNode" id="462" parent_id="460">
       <children/>
@@ -2793,6 +2913,25 @@
       <point latitude="22.782346947" longitude="88.360615110" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 2"/>
     </object>
+    <object class="WED_TaxiRoute" id="1617" parent_id="11">
+      <sources>
+        <source id="1616"/>
+        <source id="1618"/>
+      </sources>
+      <children/>
+      <hierarchy name="T2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
     <object class="WED_SimpleBoundaryNode" id="1472" parent_id="1469">
       <children/>
       <hierarchy name="Node 3" locked="0" hidden="0"/>
@@ -2808,6 +2947,25 @@
       <children/>
       <hierarchy name="Node 5" locked="0" hidden="0"/>
       <point latitude="22.787259409" longitude="88.358487961"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1607" parent_id="16">
+      <sources>
+        <source id="1606"/>
+        <source id="1601"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
     </object>
     <object class="WED_FacadeNode" id="478" parent_id="472">
       <children/>
@@ -2977,6 +3135,25 @@
       </children>
       <hierarchy name="Ring" locked="0" hidden="0"/>
     </object>
+    <object class="WED_TaxiRoute" id="1603" parent_id="16">
+      <sources>
+        <source id="1599"/>
+        <source id="1604"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
     <object class="WED_FacadeNode" id="498" parent_id="496">
       <children/>
       <hierarchy name="Point" locked="0" hidden="0"/>
@@ -3037,6 +3214,12 @@
       <point latitude="22.776376248" longitude="88.360580674" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 3"/>
     </object>
+    <object class="WED_AirportNode" id="1611" parent_id="1608">
+      <children/>
+      <hierarchy name="Node 2" locked="0" hidden="0"/>
+      <point latitude="22.771332750" longitude="88.356475718" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
     <object class="WED_FacadeNode" id="506" parent_id="502">
       <children/>
       <hierarchy name="Point" locked="0" hidden="0"/>
@@ -3062,6 +3245,15 @@
       <hierarchy name="Point" locked="0" hidden="0"/>
       <point latitude="22.776610031" longitude="88.360124397" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 1"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1639" parent_id="16">
+      <viewers>
+        <viewer id="1630"/>
+        <viewer id="1640"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.782795834" longitude="88.360272229"/>
     </object>
     <object class="WED_FacadeNode" id="510" parent_id="508">
       <children/>
@@ -3313,6 +3505,15 @@
       </children>
       <hierarchy name="term_bridge_joint_02.fac" locked="0" hidden="0"/>
       <facade_placement height="12" resource="lib/airport/Modern_Airports/Terminal_kit/term_bridge_joint_02.fac" pick_walls="1" show_level="1 Default"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1620" parent_id="11">
+      <viewers>
+        <viewer id="1619"/>
+        <viewer id="1621"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.771360620" longitude="88.356361504"/>
     </object>
     <object class="WED_ObjPlacement" id="1317" parent_id="1568">
       <children/>
@@ -3734,6 +3935,16 @@
       <hierarchy name="Node 1" locked="0" hidden="0"/>
       <point latitude="22.791105842" longitude="88.357396489"/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1628" parent_id="16">
+      <viewers>
+        <viewer id="1581"/>
+        <viewer id="1629"/>
+        <viewer id="1630"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.782912758" longitude="88.359604043"/>
+    </object>
     <object class="WED_SimpleBoundaryNode" id="1325" parent_id="1322">
       <children/>
       <hierarchy name="Node 2" locked="0" hidden="0"/>
@@ -4097,6 +4308,15 @@
       <point latitude="22.790811658" longitude="88.361820424" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1616" parent_id="11">
+      <viewers>
+        <viewer id="1617"/>
+        <viewer id="1624"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.771408623" longitude="88.355793177"/>
+    </object>
     <object class="WED_ObjPlacement" id="1313" parent_id="1568">
       <children/>
       <hierarchy name="28x26x6_Poland.obj" locked="0" hidden="0"/>
@@ -4108,6 +4328,25 @@
       <hierarchy name="28x26x6_Poland.obj" locked="0" hidden="0"/>
       <point latitude="22.789755419" longitude="88.357798767" heading="34.81"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/European_Airports/hangars/28x26x6_Poland.obj" show_level="2 A lot"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1624" parent_id="11">
+      <sources>
+        <source id="1623"/>
+        <source id="1616"/>
+      </sources>
+      <children/>
+      <hierarchy name="T2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
     </object>
     <object class="WED_ObjPlacement" id="1321" parent_id="1568">
       <children/>
@@ -4212,6 +4451,12 @@
       <children/>
       <hierarchy name="Node 13" locked="0" hidden="0"/>
       <point latitude="22.785776284" longitude="88.363325666"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1577" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_m4_full_2.obj" locked="0" hidden="0"/>
+      <point latitude="22.788517548" longitude="88.356497561" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_m4_full_2.obj" show_level="1 Default"/>
     </object>
     <object class="WED_SimpleBoundaryNode" id="1368" parent_id="1351">
       <children/>
@@ -4411,6 +4656,15 @@
     </object>
     <object class="WED_Group" id="1565" parent_id="5">
       <children>
+        <child id="1578"/>
+        <child id="1577"/>
+        <child id="1576"/>
+        <child id="1575"/>
+        <child id="1574"/>
+        <child id="1573"/>
+        <child id="1572"/>
+        <child id="1571"/>
+        <child id="1570"/>
         <child id="1416"/>
         <child id="1415"/>
         <child id="1414"/>
@@ -4474,11 +4728,32 @@
       <point latitude="22.791816283" longitude="88.361495266" heading="0.0"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Miscellaneous/Tree.obj" show_level="4 Mega tons"/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1633" parent_id="11">
+      <viewers>
+        <viewer id="1632"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.783659321" longitude="88.363642113"/>
+    </object>
     <object class="WED_ObjPlacement" id="1424" parent_id="1565">
       <children/>
       <hierarchy name="Tree.obj" locked="0" hidden="0"/>
       <point latitude="22.791740332" longitude="88.361459641" heading="0.0"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Miscellaneous/Tree.obj" show_level="4 Mega tons"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1637" parent_id="5">
+      <sources>
+        <source id="1636"/>
+        <source id="1634"/>
+      </sources>
+      <children/>
+      <hierarchy name="E1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
     </object>
     <object class="WED_ObjPlacement" id="1428" parent_id="1565">
       <children/>
@@ -4516,6 +4791,15 @@
       <point latitude="22.791401578" longitude="88.361276632" heading="0.0"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Common_Elements/Miscellaneous/Tree.obj" show_level="4 Mega tons"/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1585" parent_id="16">
+      <viewers>
+        <viewer id="1584"/>
+        <viewer id="1586"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789983291" longitude="88.358915150"/>
+    </object>
     <object class="WED_ObjPlacement" id="1440" parent_id="1565">
       <children/>
       <hierarchy name="Tree.obj" locked="0" hidden="0"/>
@@ -4529,6 +4813,15 @@
       </children>
       <hierarchy name="AG_trees_EU1.for" locked="0" hidden="0"/>
       <forest_placement density="1.0" resource="lib/g10/forests/AG_trees_EU1.for" closed="Area"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1593" parent_id="16">
+      <viewers>
+        <viewer id="1592"/>
+        <viewer id="1594"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.790498524" longitude="88.362106328"/>
     </object>
     <object class="WED_SimpleBoundaryNode" id="1448" parent_id="1444">
       <children/>
@@ -4633,6 +4926,25 @@
       <hierarchy name="Node 2" locked="0" hidden="0"/>
       <point latitude="22.787627173" longitude="88.358799097"/>
     </object>
+    <object class="WED_TaxiRoute" id="1621" parent_id="11">
+      <sources>
+        <source id="1620"/>
+        <source id="1623"/>
+      </sources>
+      <children/>
+      <hierarchy name="T2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
     <object class="WED_FacadeRing" id="1476" parent_id="1477">
       <children>
         <child id="1478"/>
@@ -4641,6 +4953,19 @@
         <child id="1481"/>
       </children>
       <hierarchy name="Facade 20 outer ring" locked="0" hidden="0"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1629" parent_id="16">
+      <sources>
+        <source id="1628"/>
+        <source id="1582"/>
+      </sources>
+      <children/>
+      <hierarchy name="02/20" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="02/20" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
     </object>
     <object class="WED_RampPosition" id="1484" parent_id="1566">
       <children/>
@@ -4710,11 +5035,40 @@
       <point latitude="22.790539551" longitude="88.359790327" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 1"/>
     </object>
+    <object class="WED_TaxiRouteNode" id="1601" parent_id="16">
+      <viewers>
+        <viewer id="1594"/>
+        <viewer id="1602"/>
+        <viewer id="1607"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.790304379" longitude="88.362036041"/>
+    </object>
     <object class="WED_FacadeNode" id="1520" parent_id="1514">
       <children/>
       <hierarchy name="Node 5" locked="0" hidden="0"/>
       <point latitude="22.791143964" longitude="88.359342699" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 1"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1605" parent_id="16">
+      <sources>
+        <source id="1604"/>
+        <source id="1606"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
     </object>
     <object class="WED_ObjPlacement" id="1524" parent_id="1564">
       <children/>
@@ -4728,11 +5082,24 @@
       <point latitude="22.787901316" longitude="88.357796266" heading="-142.82"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/g10/US/industrial/light/StorEnd1.obj" show_level="1 Default"/>
     </object>
+    <object class="WED_Taxiway" id="1609" parent_id="16">
+      <children>
+        <child id="1608"/>
+      </children>
+      <hierarchy name="New Taxiway 25" locked="0" hidden="0"/>
+      <taxiway surface="Gravel" roughness="0.0" heading="5.00"/>
+    </object>
     <object class="WED_ObjPlacement" id="1528" parent_id="1564">
       <children/>
       <hierarchy name="StorSml2p0.obj" locked="0" hidden="0"/>
       <point latitude="22.787544564" longitude="88.356691971" heading="125.10"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/g10/US/industrial/light/StorSml2p0.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_AirportNode" id="1613" parent_id="1608">
+      <children/>
+      <hierarchy name="Node 4" locked="0" hidden="0"/>
+      <point latitude="22.771305101" longitude="88.355932957" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
     </object>
     <object class="WED_ObjPlacement" id="1532" parent_id="1564">
       <children/>
@@ -4808,6 +5175,410 @@
       </children>
       <hierarchy name="Hangers" locked="0" hidden="0"/>
     </object>
+    <object class="WED_ObjPlacement" id="1570" parent_id="1565">
+      <children/>
+      <hierarchy name="Container_1100L_1.obj" locked="0" hidden="0"/>
+      <point latitude="22.790646848" longitude="88.358316194" heading="37.41"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Container_1100L_1.obj" show_level="3 Tons"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1572" parent_id="1565">
+      <children/>
+      <hierarchy name="Container_1100L_3.obj" locked="0" hidden="0"/>
+      <point latitude="22.790612551" longitude="88.358364337" heading="40.43"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Container_1100L_3.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1574" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_30Y_full_3.obj" locked="0" hidden="0"/>
+      <point latitude="22.790659180" longitude="88.357995171" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_30Y_full_3.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1575" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_30Y_full_4.obj" locked="0" hidden="0"/>
+      <point latitude="22.790608380" longitude="88.358113745" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_30Y_full_4.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1576" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_m4_full.obj" locked="0" hidden="0"/>
+      <point latitude="22.788444686" longitude="88.356523764" heading="90.00"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_m4_full.obj" show_level="2 A lot"/>
+    </object>
+    <object class="WED_ObjPlacement" id="1578" parent_id="1565">
+      <children/>
+      <hierarchy name="Dumpster_m10_empty.obj" locked="0" hidden="0"/>
+      <point latitude="22.788532364" longitude="88.356568872" heading="0.0"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/street/waste_management/Dumpster_m10_empty.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1580" parent_id="16">
+      <viewers>
+        <viewer id="1581"/>
+        <viewer id="1600"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.789135723" longitude="88.361657954"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1582" parent_id="16">
+      <viewers>
+        <viewer id="1615"/>
+        <viewer id="1629"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.773012723" longitude="88.356338951"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1583" parent_id="16">
+      <viewers>
+        <viewer id="1584"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.788203771" longitude="88.357554730"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1584" parent_id="16">
+      <sources>
+        <source id="1583"/>
+        <source id="1585"/>
+      </sources>
+      <children/>
+      <hierarchy name="A" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRoute" id="1586" parent_id="16">
+      <sources>
+        <source id="1585"/>
+        <source id="1595"/>
+      </sources>
+      <children/>
+      <hierarchy name="B1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1587" parent_id="16">
+      <viewers>
+        <viewer id="1588"/>
+        <viewer id="1596"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789874896" longitude="88.360638406"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1588" parent_id="16">
+      <sources>
+        <source id="1587"/>
+        <source id="1597"/>
+      </sources>
+      <children/>
+      <hierarchy name="B" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRoute" id="1590" parent_id="16">
+      <sources>
+        <source id="1589"/>
+        <source id="1591"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1591" parent_id="16">
+      <viewers>
+        <viewer id="1590"/>
+        <viewer id="1592"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.790635512" longitude="88.361581544"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1592" parent_id="16">
+      <sources>
+        <source id="1591"/>
+        <source id="1593"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRoute" id="1594" parent_id="16">
+      <sources>
+        <source id="1593"/>
+        <source id="1601"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1595" parent_id="16">
+      <viewers>
+        <viewer id="1586"/>
+        <viewer id="1596"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789987762" longitude="88.359514198"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1596" parent_id="16">
+      <sources>
+        <source id="1595"/>
+        <source id="1587"/>
+      </sources>
+      <children/>
+      <hierarchy name="B1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRoute" id="1598" parent_id="16">
+      <sources>
+        <source id="1597"/>
+        <source id="1589"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1599" parent_id="16">
+      <viewers>
+        <viewer id="1600"/>
+        <viewer id="1602"/>
+        <viewer id="1603"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789234336" longitude="88.361682151"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1600" parent_id="16">
+      <sources>
+        <source id="1599"/>
+        <source id="1580"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="E"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRoute" id="1602" parent_id="16">
+      <sources>
+        <source id="1601"/>
+        <source id="1599"/>
+      </sources>
+      <children/>
+      <hierarchy name="T1" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1604" parent_id="16">
+      <viewers>
+        <viewer id="1603"/>
+        <viewer id="1605"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789479597" longitude="88.362365515"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1606" parent_id="16">
+      <viewers>
+        <viewer id="1605"/>
+        <viewer id="1607"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.789729265" longitude="88.362476905"/>
+    </object>
+    <object class="WED_AirportChain" id="1608" parent_id="1609">
+      <children>
+        <child id="1611"/>
+        <child id="1612"/>
+        <child id="1613"/>
+        <child id="1614"/>
+      </children>
+      <hierarchy name="Taxiway 25 Outer Ring" locked="0" hidden="0"/>
+      <airport_chain closed="1"/>
+    </object>
+    <object class="WED_AirportNode" id="1612" parent_id="1608">
+      <children/>
+      <hierarchy name="Node 3" locked="0" hidden="0"/>
+      <point latitude="22.771972907" longitude="88.356182690" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_AirportNode" id="1614" parent_id="1608">
+      <children/>
+      <hierarchy name="Node 5" locked="0" hidden="0"/>
+      <point latitude="22.771147497" longitude="88.356418743" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <markings/>
+    </object>
+    <object class="WED_TaxiRoute" id="1615" parent_id="11">
+      <sources>
+        <source id="1582"/>
+        <source id="1623"/>
+      </sources>
+      <children/>
+      <hierarchy name="T2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1618" parent_id="11">
+      <viewers>
+        <viewer id="1617"/>
+        <viewer id="1619"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.771227278" longitude="88.356322459"/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1623" parent_id="16">
+      <viewers>
+        <viewer id="1615"/>
+        <viewer id="1621"/>
+        <viewer id="1624"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.771947428" longitude="88.355976498"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1630" parent_id="11">
+      <sources>
+        <source id="1628"/>
+        <source id="1639"/>
+      </sources>
+      <children/>
+      <hierarchy name="F" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures>
+        <runway value="02"/>
+        <runway value="20"/>
+      </departures>
+      <arrivals>
+        <runway value="02"/>
+        <runway value="20"/>
+      </arrivals>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1631" parent_id="11">
+      <viewers>
+        <viewer id="1632"/>
+        <viewer id="1635"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_stop" locked="0" hidden="0"/>
+      <point latitude="22.782374074" longitude="88.363471131"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1632" parent_id="11">
+      <sources>
+        <source id="1631"/>
+        <source id="1633"/>
+      </sources>
+      <children/>
+      <hierarchy name="E2" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1634" parent_id="16">
+      <viewers>
+        <viewer id="1635"/>
+        <viewer id="1637"/>
+        <viewer id="1640"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.782537682" longitude="88.362302471"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1635" parent_id="11">
+      <sources>
+        <source id="1634"/>
+        <source id="1631"/>
+      </sources>
+      <children/>
+      <hierarchy name="F" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1636" parent_id="5">
+      <viewers>
+        <viewer id="1637"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="22.783689251" longitude="88.362535251"/>
+    </object>
+    <object class="WED_TaxiRoute" id="1640" parent_id="11">
+      <sources>
+        <source id="1639"/>
+        <source id="1634"/>
+      </sources>
+      <children/>
+      <hierarchy name="F" locked="0" hidden="0"/>
+      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
+      <taxi_route vehicle_class="Aircraft" oneway="0" runway="None" width="B"/>
+      <departures/>
+      <arrivals/>
+      <ils_holds/>
+    </object>
   </objects>
   <prefs>
     <pref name="PropertyPane0/Closed">
@@ -4831,17 +5602,17 @@
     </pref>
     <pref name="doc/export_target" value="99"/>
     <pref name="doc/xml_compatibility" value="107"/>
-    <pref name="map/east" value="88.366038"/>
+    <pref name="map/east" value="88.369305"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="22.795916"/>
+    <pref name="map/north" value="22.795116"/>
     <pref name="map/obj_density" value="3"/>
     <pref name="map/pavement_alpha" value="1"/>
     <pref name="map/preview_vis" value="1"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="2"/>
-    <pref name="map/south" value="22.773851"/>
+    <pref name="map/south" value="22.770778"/>
     <pref name="map/vertices_vis" value="0"/>
-    <pref name="map/west" value="88.347478"/>
+    <pref name="map/west" value="88.348833"/>
     <pref name="map/world_map_vis" value="0"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Boundary_.Markings" value=""/>
@@ -4864,7 +5635,7 @@
     <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
     <pref name="map_Light Fixture_Fixture Type" value="35"/>
     <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/polygons/tarmac_line.lin"/>
-    <pref name="map_Objects_Object" value="lib/g10/forests/autogen_tree1.obj"/>
+    <pref name="map_Objects_Object" value="lib/street/waste_management/Dumpster_m10_empty.obj"/>
     <pref name="map_Objects_Show with" value="750"/>
     <pref name="map_Polygons_Heading" value="0.000000"/>
     <pref name="map_Polygons_Resource" value="CDB-Library/Airport/paviment/taxi_stop.pol"/>
