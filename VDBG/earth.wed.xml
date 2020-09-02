@@ -47,7 +47,7 @@
       <children/>
       <hierarchy name="selection"/>
       <selection>
-        <sel id="845"/>
+        <sel id="5"/>
       </selection>
     </object>
     <object class="WED_SimpleBoundaryNode" id="393" parent_id="391">
@@ -104,7 +104,6 @@
     </object>
     <object class="WED_Group" id="4" parent_id="1">
       <children>
-        <child id="845"/>
         <child id="5"/>
       </children>
       <hierarchy name="world" locked="0" hidden="0"/>
@@ -131,7 +130,7 @@
         <child id="17"/>
       </children>
       <hierarchy name="Battambang" locked="0" hidden="0"/>
-      <airport kind="Airport" elevation="18.0" has_atc="1" icao="VDBG" always_flatten="0" drive_on_left="0" scenery_id="79415"/>
+      <airport kind="Airport" elevation="18.0" has_atc="1" icao="VDBG" always_flatten="0" drive_on_left="0" scenery_id="79716"/>
       <meta_data>
         <meta_data_entry pair="city,Battambang"/>
         <meta_data_entry pair="country,Cambodia"/>
@@ -1552,7 +1551,7 @@
       <point latitude="13.092415522" longitude="103.221972879" heading="0.0"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Ramp_Equipment/Chocks_2.obj" show_level="1 Default"/>
     </object>
-    <object class="WED_ObjPlacement" id="845" parent_id="4">
+    <object class="WED_ObjPlacement" id="845" parent_id="571">
       <children/>
       <hierarchy name="store_76.obj" locked="0" hidden="0"/>
       <point latitude="13.092097117" longitude="103.222777096" heading="160.44"/>
@@ -2333,6 +2332,7 @@
         <child id="833"/>
         <child id="832"/>
         <child id="831"/>
+        <child id="845"/>
       </children>
       <hierarchy name="Apron Decor" locked="0" hidden="0"/>
     </object>

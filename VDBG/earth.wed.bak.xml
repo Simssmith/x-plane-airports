@@ -47,7 +47,7 @@
       <children/>
       <hierarchy name="selection"/>
       <selection>
-        <sel id="5"/>
+        <sel id="845"/>
       </selection>
     </object>
     <object class="WED_SimpleBoundaryNode" id="393" parent_id="391">
@@ -104,6 +104,7 @@
     </object>
     <object class="WED_Group" id="4" parent_id="1">
       <children>
+        <child id="845"/>
         <child id="5"/>
       </children>
       <hierarchy name="world" locked="0" hidden="0"/>
@@ -1550,6 +1551,12 @@
       <hierarchy name="Chocks_2.obj" locked="0" hidden="0"/>
       <point latitude="13.092415522" longitude="103.221972879" heading="0.0"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/airport/Ramp_Equipment/Chocks_2.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_ObjPlacement" id="845" parent_id="4">
+      <children/>
+      <hierarchy name="store_76.obj" locked="0" hidden="0"/>
+      <point latitude="13.092097117" longitude="103.222777096" heading="160.44"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="lib/g10/US/commercial/store_76.obj" show_level="1 Default"/>
     </object>
     <object class="WED_ObjPlacement" id="252" parent_id="15">
       <children/>
@@ -4777,17 +4784,17 @@
     </pref>
     <pref name="doc/export_target" value="99"/>
     <pref name="doc/xml_compatibility" value="107"/>
-    <pref name="map/east" value="103.223696"/>
+    <pref name="map/east" value="103.222932"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="13.092676"/>
+    <pref name="map/north" value="13.092220"/>
     <pref name="map/obj_density" value="3"/>
     <pref name="map/pavement_alpha" value="1"/>
     <pref name="map/preview_vis" value="1"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="2"/>
-    <pref name="map/south" value="13.091488"/>
+    <pref name="map/south" value="13.091990"/>
     <pref name="map/vertices_vis" value="1"/>
-    <pref name="map/west" value="103.222223"/>
+    <pref name="map/west" value="103.222646"/>
     <pref name="map/world_map_vis" value="0"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Boundary_.Markings" value=""/>
@@ -4810,7 +4817,7 @@
     <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
     <pref name="map_Light Fixture_Fixture Type" value="35"/>
     <pref name="map_Lines_Resource" value="lib/airport/lines/21_road_edge_zipper.lin"/>
-    <pref name="map_Objects_Object" value="lib/industrial_area/goods/lumber_stack_4m.obj"/>
+    <pref name="map_Objects_Object" value="lib/g10/US/commercial/store_76.obj"/>
     <pref name="map_Objects_Show with" value="750"/>
     <pref name="map_Polygons_Heading" value="0.000000"/>
     <pref name="map_Polygons_Resource" value="lib/airport/pavement/concrete_3L.pol"/>
