@@ -130,7 +130,7 @@
         <child id="922"/>
       </children>
       <hierarchy name="San Patricio Co" locked="0" hidden="0"/>
-      <airport kind="Airport" elevation="14.3" has_atc="0" icao="T69" always_flatten="0" drive_on_left="0" scenery_id="65020"/>
+      <airport kind="Airport" elevation="14.3" has_atc="0" icao="T69" always_flatten="0" drive_on_left="0" scenery_id="79838"/>
       <meta_data>
         <meta_data_entry pair="city,"/>
         <meta_data_entry pair="country,"/>
@@ -343,14 +343,6 @@
       <point latitude="28.042359200" longitude="-97.542630550" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
-    <object class="WED_TaxiRouteNode" id="1415" parent_id="1372">
-      <viewers>
-        <viewer id="1416"/>
-      </viewers>
-      <children/>
-      <hierarchy name="C_start" locked="0" hidden="0"/>
-      <point latitude="28.034487605" longitude="-97.545632922"/>
-    </object>
     <object class="WED_RunwayNode" id="20" parent_id="18">
       <children/>
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
@@ -466,15 +458,6 @@
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
       <point latitude="28.042577070" longitude="-97.542316260" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
-    </object>
-    <object class="WED_TaxiRouteNode" id="1417" parent_id="1372">
-      <viewers>
-        <viewer id="1416"/>
-        <viewer id="1418"/>
-      </viewers>
-      <children/>
-      <hierarchy name="C_stop" locked="0" hidden="0"/>
-      <point latitude="28.037941506" longitude="-97.542267940"/>
     </object>
     <object class="WED_Taxiway" id="30" parent_id="15">
       <children>
@@ -628,12 +611,6 @@
       <point latitude="28.042648590" longitude="-97.542969270" split="1" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
-    <object class="WED_AirportNode" id="41" parent_id="31">
-      <children/>
-      <hierarchy name="unnamed entity" locked="0" hidden="0"/>
-      <point latitude="28.042628700" longitude="-97.543058980" split="0" ctrl_latitude_lo="0.000001110" ctrl_longitude_lo="0.000028520" ctrl_latitude_hi="-0.000001110" ctrl_longitude_hi="-0.000028520"/>
-      <markings/>
-    </object>
     <object class="WED_AirportNode" id="856" parent_id="855">
       <children/>
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
@@ -641,6 +618,12 @@
       <markings>
         <marking value="Solid White (Roadway)"/>
       </markings>
+    </object>
+    <object class="WED_AirportNode" id="41" parent_id="31">
+      <children/>
+      <hierarchy name="unnamed entity" locked="0" hidden="0"/>
+      <point latitude="28.042628700" longitude="-97.543058980" split="0" ctrl_latitude_lo="0.000001110" ctrl_longitude_lo="0.000028520" ctrl_latitude_hi="-0.000001110" ctrl_longitude_hi="-0.000028520"/>
+      <markings/>
     </object>
     <object class="WED_AirportNode" id="433" parent_id="430">
       <children/>
@@ -1100,29 +1083,6 @@
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
       <point latitude="28.035033160" longitude="-97.538917970" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
-    </object>
-    <object class="WED_TaxiRoute" id="1425" parent_id="1372">
-      <sources>
-        <source id="1422"/>
-        <source id="1419"/>
-      </sources>
-      <children/>
-      <hierarchy name="03/21" locked="0" hidden="0"/>
-      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
-      <taxi_route vehicle_class="Aircraft" oneway="0" runway="03/21" width="A"/>
-      <departures>
-        <runway value="03"/>
-        <runway value="14"/>
-        <runway value="21"/>
-        <runway value="32"/>
-      </departures>
-      <arrivals>
-        <runway value="03"/>
-        <runway value="14"/>
-        <runway value="21"/>
-        <runway value="32"/>
-      </arrivals>
-      <ils_holds/>
     </object>
     <object class="WED_AirportNode" id="493" parent_id="472">
       <children/>
@@ -1590,7 +1550,7 @@
     <object class="WED_TowerViewpoint" id="1308" parent_id="16">
       <children/>
       <hierarchy name="New Tower Viewpoint 1" locked="0" hidden="0"/>
-      <point latitude="28.041580971" longitude="-97.542953160"/>
+      <point latitude="28.043067554" longitude="-97.542993873"/>
       <tower_viewpoint height="20"/>
     </object>
     <object class="WED_DrapedOrthophoto" id="1179" parent_id="1137">
@@ -2490,14 +2450,6 @@
         <child id="1328"/>
         <child id="1330"/>
         <child id="1332"/>
-        <child id="1421"/>
-        <child id="1417"/>
-        <child id="1415"/>
-        <child id="1419"/>
-        <child id="1420"/>
-        <child id="1418"/>
-        <child id="1425"/>
-        <child id="1416"/>
         <child id="1623"/>
         <child id="1624"/>
       </children>
@@ -3834,17 +3786,17 @@
       <hierarchy name="New Taxiway 12" locked="0" hidden="0"/>
       <taxiway surface="Concrete" roughness="0.25" heading="150.00"/>
     </object>
-    <object class="WED_AirportNode" id="434" parent_id="430">
-      <children/>
-      <hierarchy name="unnamed entity" locked="0" hidden="0"/>
-      <point latitude="28.042519700" longitude="-97.542357580" split="0" ctrl_latitude_lo="0.000002260" ctrl_longitude_lo="0.000007080" ctrl_latitude_hi="-0.000002260" ctrl_longitude_hi="-0.000007080"/>
-      <markings/>
-    </object>
     <object class="WED_FacadeNode" id="1539" parent_id="1520">
       <children/>
       <hierarchy name="Node 18" locked="0" hidden="0"/>
       <point latitude="28.043875301" longitude="-97.546891060" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <facade_node wall_type="Wall 1"/>
+    </object>
+    <object class="WED_AirportNode" id="434" parent_id="430">
+      <children/>
+      <hierarchy name="unnamed entity" locked="0" hidden="0"/>
+      <point latitude="28.042519700" longitude="-97.542357580" split="0" ctrl_latitude_lo="0.000002260" ctrl_longitude_lo="0.000007080" ctrl_latitude_hi="-0.000002260" ctrl_longitude_hi="-0.000007080"/>
+      <markings/>
     </object>
     <object class="WED_AirportNode" id="517" parent_id="514">
       <children/>
@@ -4214,29 +4166,6 @@
       <point latitude="28.041592550" longitude="-97.542108970" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
     </object>
-    <object class="WED_TaxiRoute" id="1418" parent_id="1372">
-      <sources>
-        <source id="1417"/>
-        <source id="1422"/>
-      </sources>
-      <children/>
-      <hierarchy name="03/21" locked="0" hidden="0"/>
-      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
-      <taxi_route vehicle_class="Aircraft" oneway="0" runway="03/21" width="A"/>
-      <departures>
-        <runway value="03"/>
-        <runway value="14"/>
-        <runway value="21"/>
-        <runway value="32"/>
-      </departures>
-      <arrivals>
-        <runway value="03"/>
-        <runway value="14"/>
-        <runway value="21"/>
-        <runway value="32"/>
-      </arrivals>
-      <ils_holds/>
-    </object>
     <object class="WED_AirportNode" id="539" parent_id="117">
       <children/>
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
@@ -4353,6 +4282,15 @@
       <hierarchy name="unnamed entity" locked="0" hidden="0"/>
       <point latitude="28.042106320" longitude="-97.542773040" split="0" ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
       <markings/>
+    </object>
+    <object class="WED_TaxiRouteNode" id="1422" parent_id="1372">
+      <viewers>
+        <viewer id="1423"/>
+        <viewer id="1427"/>
+      </viewers>
+      <children/>
+      <hierarchy name="C_start" locked="0" hidden="0"/>
+      <point latitude="28.038406580" longitude="-97.541815785"/>
     </object>
     <object class="WED_AirportNode" id="567" parent_id="472">
       <children/>
@@ -7663,69 +7601,15 @@
       <hierarchy name="C_stop" locked="0" hidden="0"/>
       <point latitude="28.041310891" longitude="-97.542447771"/>
     </object>
-    <object class="WED_TaxiRoute" id="1416" parent_id="1372">
-      <sources>
-        <source id="1415"/>
-        <source id="1417"/>
-      </sources>
-      <children/>
-      <hierarchy name="03/21" locked="0" hidden="0"/>
-      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
-      <taxi_route vehicle_class="Aircraft" oneway="0" runway="03/21" width="A"/>
-      <departures/>
-      <arrivals/>
-      <ils_holds/>
-    </object>
     <object class="WED_SimpleBoundaryNode" id="1561" parent_id="1560">
       <children/>
       <hierarchy name="Start" locked="0" hidden="0"/>
       <point latitude="28.040415011" longitude="-97.540688909"/>
     </object>
-    <object class="WED_TaxiRouteNode" id="1419" parent_id="1372">
-      <viewers>
-        <viewer id="1420"/>
-        <viewer id="1425"/>
-      </viewers>
-      <children/>
-      <hierarchy name="C_stop" locked="0" hidden="0"/>
-      <point latitude="28.038795043" longitude="-97.541438114"/>
-    </object>
-    <object class="WED_TaxiRoute" id="1420" parent_id="1372">
-      <sources>
-        <source id="1419"/>
-        <source id="1421"/>
-      </sources>
-      <children/>
-      <hierarchy name="03/21" locked="0" hidden="0"/>
-      <edge ctrl_latitude_lo="0.0" ctrl_longitude_lo="0.0" ctrl_latitude_hi="0.0" ctrl_longitude_hi="0.0"/>
-      <taxi_route vehicle_class="Aircraft" oneway="0" runway="03/21" width="A"/>
-      <departures/>
-      <arrivals/>
-      <ils_holds/>
-    </object>
     <object class="WED_SimpleBoundaryNode" id="1565" parent_id="1563">
       <children/>
       <hierarchy name="End" locked="0" hidden="0"/>
       <point latitude="28.039038246" longitude="-97.540367585"/>
-    </object>
-    <object class="WED_TaxiRouteNode" id="1421" parent_id="1372">
-      <viewers>
-        <viewer id="1420"/>
-      </viewers>
-      <children/>
-      <hierarchy name="C_stop" locked="0" hidden="0"/>
-      <point latitude="28.040668018" longitude="-97.539613065"/>
-    </object>
-    <object class="WED_TaxiRouteNode" id="1422" parent_id="1372">
-      <viewers>
-        <viewer id="1418"/>
-        <viewer id="1423"/>
-        <viewer id="1425"/>
-        <viewer id="1427"/>
-      </viewers>
-      <children/>
-      <hierarchy name="C_start" locked="0" hidden="0"/>
-      <point latitude="28.038406580" longitude="-97.541815785"/>
     </object>
     <object class="WED_TaxiRoute" id="1427" parent_id="1372">
       <sources>
@@ -8615,17 +8499,17 @@
     </pref>
     <pref name="doc/export_target" value="99"/>
     <pref name="doc/xml_compatibility" value="107"/>
-    <pref name="map/east" value="-97.541124"/>
+    <pref name="map/east" value="-97.541752"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="28.041740"/>
+    <pref name="map/north" value="28.044578"/>
     <pref name="map/obj_density" value="3"/>
     <pref name="map/pavement_alpha" value="1"/>
     <pref name="map/preview_vis" value="1"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="2"/>
-    <pref name="map/south" value="28.040750"/>
+    <pref name="map/south" value="28.042383"/>
     <pref name="map/vertices_vis" value="1"/>
-    <pref name="map/west" value="-97.542939"/>
+    <pref name="map/west" value="-97.545778"/>
     <pref name="map/world_map_vis" value="0"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Boundary_.Markings" value=""/>
@@ -8701,8 +8585,8 @@
     <pref name="window/height" value="1120"/>
     <pref name="window/main_split" value="289"/>
     <pref name="window/main_split2" value="2116"/>
-    <pref name="window/prev_split" value="839"/>
-    <pref name="window/prop_split" value="653"/>
+    <pref name="window/prev_split" value="859"/>
+    <pref name="window/prop_split" value="673"/>
     <pref name="window/width" value="2568"/>
     <pref name="window/x_loc" value="1945"/>
     <pref name="window/y_loc" value="126"/>
