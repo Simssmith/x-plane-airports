@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<apt sam="false" revision="6" sam_path="S:\Games\X-Plane 11\Custom Scenery\VGSY\sam.xml">
+	<plugin_config sam="2.2.7" Seasons="1.0.4" GlobalTrees="1.0.3" StaticAircrafts="1.0.4" />
+</apt>
