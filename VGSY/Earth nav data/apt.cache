@@ -30,7 +30,7 @@
 			<airplane_type type="turboprops" />
 			<airplane_type type="props" />
 		</startup_location>
-		<startup_location latitude="24.95997375" longitude="91.870721570000001" heading="19.550000000000001" name="GA5" airline_code="" type="tie_down" width_code="a" operation_type="general_aviation" is_legacy="false">
+		<startup_location latitude="24.95997375" longitude="91.870721579999994" heading="19.550000000000001" name="GA5" airline_code="" type="tie_down" width_code="a" operation_type="general_aviation" is_legacy="false">
 			<airplane_type type="turboprops" />
 			<airplane_type type="props" />
 		</startup_location>
