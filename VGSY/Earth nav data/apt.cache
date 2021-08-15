@@ -76,10 +76,10 @@
 			<taxi_routing_node latitude="24.959703520000001" longitude="91.873533890000004" type="both" id="22" name="22 unnamed entity(split)" />
 			<taxi_routing_node latitude="24.958960279999999" longitude="91.877804429999998" type="both" id="23" name="23 unnamed entity(split)" />
 			<taxi_routing_node latitude="24.959963250000001" longitude="91.870485479999999" type="both" id="24" name="24 N_stop" />
-			<taxi_routing_node latitude="24.959185349999998" longitude="91.870152910000002" type="both" id="25" name="25 N_stop" />
+			<taxi_routing_node latitude="24.959192179999999" longitude="91.870155920000002" type="both" id="25" name="25 N_stop" />
 			<taxi_routing_node latitude="24.958907400000001" longitude="91.870950539999995" type="both" id="26" name="26 N_stop" />
-			<taxi_routing_node latitude="24.958651700000001" longitude="91.871636899999999" type="both" id="27" name="27 N_stop" />
-			<taxi_routing_node latitude="24.957725329999999" longitude="91.871173630000001" type="both" id="28" name="28 N_stop" />
+			<taxi_routing_node latitude="24.958653219999999" longitude="91.87159991" type="both" id="27" name="27 N_stop" />
+			<taxi_routing_node latitude="24.957740510000001" longitude="91.871187230000004" type="both" id="28" name="28 N_stop" />
 			<taxi_routing_node latitude="24.956963009999999" longitude="91.87318406" type="both" id="29" name="29 N_stop" />
 			<taxi_routing_node latitude="24.957135600000001" longitude="91.873273280000006" type="both" id="30" name="30 N_stop" />
 			<taxi_routing_node latitude="24.957159369999999" longitude="91.873795329999993" type="both" id="31" name="31 N_stop" />
