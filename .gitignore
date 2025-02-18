@@ -7,6 +7,7 @@ Global Airports/COPYING
 *.dsf
 *.dat
 *.bak.xml
+*.zip
 Global Airports/README
 MisterX_Library
 OpenSceneryX
